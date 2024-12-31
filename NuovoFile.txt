@@ -1,0 +1,2 @@
+<label for="descrizioneDispositivo">Descrizione Dispositivo:</label>
+        <textarea id="descrizioneDispositivo" name="descrizioneDispositivo" rows="4" cols="50" maxlength="500"></textarea><br><br>

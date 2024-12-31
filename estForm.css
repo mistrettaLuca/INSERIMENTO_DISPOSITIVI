@@ -1,0 +1,107 @@
+/* Aggiungi un po' di margine e padding per il body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenitore principale del form */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+/* Impostazione per il form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Etichette dei campi */
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input e textarea */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Per il campo di tipo file */
+input[type="file"] {
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Area di testo */
+textarea {
+    resize: vertical; /* Permette di ridimensionare l'area di testo solo verticalmente */
+}
+
+/* Bottone di invio 
+.bottone1 {
+    background-color: #ADD8E6;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.bottone1:hover {
+    background-color: lightblue;
+}*/
+
+/* Piccola correzione per input di tipo file */
+input[type="file"] {
+    background-color: lightblue;
+    border: 1px solid #ccc;
+}
+
+/* Spazio tra i campi */
+input[type="text"],
+input[type="number"],
+textarea,
+button {
+    box-sizing: border-box;
+}
+/*
+.bottone2 {
+    border-radius: 10px;
+    background-color: blue;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.bottone2:hover {
+    background-color: lightblue;
+}*/
+
+/* Distanza tra le righe del form */
+form > * {
+    margin-bottom: 15px;
+}

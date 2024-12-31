@@ -1,0 +1,57 @@
+/* Stile di base per la tabella */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Intestazioni della tabella */
+th {
+    background-color: #B0D7F3;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Righe della tabella */
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Righe pari (per alternare il colore di sfondo) */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Righe al passaggio del mouse */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Aggiungere uno stile per i bordi della tabella */
+table, th, td {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Stile per il corpo della tabella */
+table {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+/*
+#bottone2 {
+    border-radius: 10px;
+    background-color: blue;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 10px;
+    position: absolute;
+    left: 10;
+}
+
+#bottone2:hover {
+    background-color: lightblue;
+}*/
